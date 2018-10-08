@@ -1,8 +1,8 @@
 # @a-la/fixture-babel
 
-[![npm version](https://badge.fury.io/js/@a-la/fixture-babel.svg)](https://npmjs.org/package/@a-la/fixture-babel)
+[![npm version](https://badge.fury.io/js/%40a-la%2Ffixture-babel.svg)](https://npmjs.org/package/@a-la/fixture-babel)
 
-`@a-la/fixture-babel` is Source code transpiled with babel.
+`@a-la/fixture-babel` is source code transpiled with _Babel_.
 
 ```sh
 yarn add -E @a-la/fixture-babel
@@ -12,32 +12,26 @@ yarn add -E @a-la/fixture-babel
 
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
-- [`fixtureBabel(arg1: string, arg2?: boolean)`](#mynewpackagearg1-stringarg2-boolean-void)
-  * [`Config`](#type-config)
+- [`erte()`](#erte-void)
+- [`c()`](#c-void)
+- [`b()`](#b-void)
 - [Copyright](#copyright)
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/0.svg?sanitize=true"></a></p>
 
 ## API
 
-The package is available by importing its default function:
+The package is available by importing its default and named functions:
 
 ```js
-import fixtureBabel from '@a-la/fixture-babel'
+import erte, { c, b } from '@a-la/fixture-babel'
 ```
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/1.svg?sanitize=true"></a></p>
 
-## `fixtureBabel(`<br/>&nbsp;&nbsp;`arg1: string,`<br/>&nbsp;&nbsp;`arg2?: boolean,`<br/>`): void`
+## `erte(): void`
 
-Call this function to get the result you want.
-
-__<a name="type-config">`Config`</a>__: Options for the program.
-
-|   Name    |   Type    |    Description    | Default |
-| --------- | --------- | ----------------- | ------- |
-| shouldRun | _boolean_ | A boolean option. | `true`  |
-| __text*__ | _string_  | A text to return. | -       |
+Returns `erte`.
 
 ```js
 /* yarn example/ */
@@ -51,10 +45,22 @@ import fixtureBabel from '@a-la/fixture-babel'
 })()
 ```
 ```
-example
+erte
 ```
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/2.svg?sanitize=true"></a></p>
+
+## `c(): void`
+
+Returns `c`.
+
+<p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/3.svg?sanitize=true"></a></p>
+
+## `b(): void`
+
+Returns `b`.
+
+<p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/4.svg?sanitize=true"></a></p>
 
 ## Copyright
 

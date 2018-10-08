@@ -2,7 +2,7 @@
 
 %NPM: @a-la/fixture-babel%
 
-`@a-la/fixture-babel` is Source code transpiled with babel.
+`@a-la/fixture-babel` is source code transpiled with _Babel_.
 
 ```sh
 yarn add -E @a-la/fixture-babel
