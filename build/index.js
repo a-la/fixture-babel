@@ -1,30 +1,35 @@
-const { debuglog } = require('util');
+"use strict";
 
-const LOG = debuglog('@a-la/fixture-babel')
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.b = exports.c = void 0;
 
 /**
- * Source code transpiled with babel.
- * @param {Config} [config] Options for the program.
- * @param {boolean} [config.shouldRun=true] A boolean option. Default `true`.
- * @param {string} config.text A text to return.
+ * A function that returns `erte`.
  */
-               async function fixtureBabel(config = {}) {
-  const {
-    shouldRun = true,
-    text,
-  } = config
-  if (!shouldRun) return
-  LOG('@a-la/fixture-babel called with %s', text)
-  return text
-}
-
-/* documentary types/index.xml */
+const erte = () => {
+  return 'erte';
+};
 /**
- * @typedef {Object} Config Options for the program.
- * @prop {boolean} [shouldRun=true] A boolean option. Default `true`.
- * @prop {string} text A text to return.
+ * A function that returns `c`.
  */
 
 
-module.exports = fixtureBabel
-//# sourceMappingURL=index.js.map
+const c = () => {
+  return 'c';
+};
+/**
+ * A function that returns `b`.
+ */
+
+
+exports.c = c;
+
+const b = () => {
+  return 'b';
+};
+
+exports.b = b;
+var _default = erte;
+exports.default = _default;
