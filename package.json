@@ -1,6 +1,6 @@
 {
   "name": "@a-la/fixture-babel",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Source code transpiled with babel.",
   "main": "build",
   "scripts": {
