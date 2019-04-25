@@ -2,7 +2,8 @@
   "name": "@a-la/fixture-babel",
   "version": "1.0.0",
   "description": "Source code transpiled with babel.",
-  "main": "build",
+  "main": "build/index.js",
+  "module": "src/index.js",
   "scripts": {
     "t": "zoroaster -b",
     "test": "yarn t test/spec test/mask",
@@ -10,7 +11,7 @@
     "mask": "yarn t test/mask",
     "test-build": "ALAMODE_ENV=test-build yarn test",
     "lint": "eslint .",
-    "doc": "NODE_DEBUG=doc doc documentary -o README.md",
+    "doc": "NODE_DEBUG=doc doc -o README.md",
     "b": "babel src -d build",
     "d": "yarn-s d1",
     "d1": "NODE_DEBUG=doc doc src/index.js -g",
@@ -20,7 +21,8 @@
     "example/": "yarn e example/example.js"
   },
   "files": [
-    "build"
+    "build",
+    "src"
   ],
   "repository": {
     "type": "git",
@@ -37,14 +39,13 @@
   },
   "homepage": "https://github.com/a-la/fixture-babel#readme",
   "devDependencies": {
-    "@babel/cli": "7.1.2",
-    "@babel/core": "7.1.2",
-    "@babel/plugin-transform-modules-commonjs": "7.1.0",
-    "@babel/register": "7.0.0",
-    "alamode": "1.5.1",
-    "documentary": "1.20.1",
+    "@babel/cli": "7.4.3",
+    "@babel/core": "7.4.3",
+    "@babel/plugin-transform-modules-commonjs": "7.4.3",
+    "alamode": "2.0.0",
+    "documentary": "1.26.0",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
-    "zoroaster": "3.5.2"
+    "zoroaster": "3.13.0"
   }
 }
