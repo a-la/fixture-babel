@@ -31,3 +31,11 @@ Returns `c`.
 Returns `b`.
 
 %~%
+
+## Transpiled Source Code
+
+This is how Babel transpiles [source code](src/class.js):
+
+%EXAMPLE: build/class%
+
+%~%
