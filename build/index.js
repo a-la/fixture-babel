@@ -13,21 +13,23 @@ const erte = () => {
 };
 /**
  * A function that returns `c`.
+ * @param {string} input
  */
 
 
-const c = () => {
-  return 'c';
+const c = input => {
+  return 'c' + (input ? `-${input}` : '');
 };
 /**
  * A function that returns `b`.
+ * @param {number} times
  */
 
 
 exports.c = c;
 
-const b = () => {
-  return 'b';
+const b = times => {
+  return 'b' + (times ? `-${times}` : '');
 };
 
 exports.b = b;
