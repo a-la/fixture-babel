@@ -1,4 +1,6 @@
-import Stream, { Transform } from 'stream'
+import Stream, {
+  Transform,
+} from 'stream'
 import { join } from 'path'
 
 export default class S extends Transform {
