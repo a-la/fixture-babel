@@ -12,9 +12,9 @@ yarn add -E @a-la/fixture-babel
 
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
-- [`erte()`](#erte-void)
-- [`c()`](#c-void)
-- [`b()`](#b-void)
+- [`erte(): string`](#erte-string)
+- [`c(): string`](#c-string)
+- [`b(): string`](#b-string)
 - [Transpiled Source Code](#transpiled-source-code)
 - [Copyright](#copyright)
 
@@ -30,7 +30,7 @@ import erte, { c, b } from '@a-la/fixture-babel'
 
 <p align="center"><a href="#table-of-contents"><img src="/.documentary/section-breaks/1.svg?sanitize=true"></a></p>
 
-## `erte(): void`
+## `erte(): string`
 
 Returns `erte`.
 
@@ -51,13 +51,13 @@ erte
 
 <p align="center"><a href="#table-of-contents"><img src="/.documentary/section-breaks/2.svg?sanitize=true"></a></p>
 
-## `c(): void`
+## `c(): string`
 
 Returns `c`.
 
 <p align="center"><a href="#table-of-contents"><img src="/.documentary/section-breaks/3.svg?sanitize=true"></a></p>
 
-## `b(): void`
+## `b(): string`
 
 Returns `b`.
 

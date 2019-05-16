@@ -8,7 +8,7 @@ import erte, { c, b } from '@a-la/fixture-babel'
 
 %~%
 
-```## erte
+```## erte => string
 ```
 
 Returns `erte`.
@@ -18,14 +18,14 @@ Returns `erte`.
 
 %~%
 
-```## c
+```## c => string
 ```
 
 Returns `c`.
 
 %~%
 
-```## b
+```## b => string
 ```
 
 Returns `b`.
