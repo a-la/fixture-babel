@@ -38,13 +38,14 @@
   },
   "homepage": "https://github.com/a-la/fixture-babel#readme",
   "devDependencies": {
-    "@babel/cli": "7.4.3",
-    "@babel/core": "7.4.3",
-    "@babel/plugin-transform-modules-commonjs": "7.4.3",
-    "alamode": "2.0.0",
-    "documentary": "1.26.0",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "alamode": "^2.2.0",
+    "documentary": "^1.27.3",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
-    "zoroaster": "3.13.0"
+    "zoroaster": "^4.1.1-alpha"
   }
 }
